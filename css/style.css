@@ -1,1 +1,71 @@
-/* Denna fil skall innehålla din CSS kod */
+.nav {
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(248, 208, 147);
+    display: flex;
+    align-items: center;
+}
+.navLinks {
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    top: -100.9vh;
+    background-color:rgb(248, 208, 147);
+    align-items: center;
+    justify-content: flex-end; 
+    width: 97.5vw;
+    list-style-type: none;
+    transition:all 0.6s ease;
+}
+nav ul li{
+    padding-right: 20px;
+}
+.navLinks li {
+    text-align: center;
+}
+.burger div{
+    display: flex;
+    justify-content: flex-start;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(236, 236, 195);
+    margin: 5px;
+    border-radius: 10%;
+    position:static;
+}
+.burger:hover>div {
+    background-color: blueviolet;
+}
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+.navActive {
+    transform: translatey(100vh);
+    transition:all 0.6s ease;
+}
+.logoML{
+    border: solid black 1px;
+    margin-left: 15px;
+}
+
+
+
+.titel-main{
+    border: solid black 1px;
+}
+.foto-main{
+    border: solid black 1px;
+    height: 50vh;
+    width: 20vw;
+}
+.text-main{
+    border: solid black 1px;
+    height: 30vh;
+    width: 25vw;
+}
