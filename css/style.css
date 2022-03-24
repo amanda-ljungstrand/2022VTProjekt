@@ -4,6 +4,7 @@
     background-color:rgb(248, 208, 147);
     display: flex;
     align-items: center;
+    grid-area: nav;
 }
 .navLinks {
     display: flex;
@@ -58,14 +59,87 @@ nav ul li{
 
 .titel-main{
     border: solid black 1px;
+    position: absolute;
+    left: 400px;
+    top: 250px
 }
 .foto-main{
     border: solid black 1px;
     height: 50vh;
     width: 20vw;
+    grid-area: fom;
 }
 .text-main{
     border: solid black 1px;
     height: 30vh;
     width: 25vw;
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+
+
+#wrapper1{
+    display: grid;
+    grid-template-rows: 70% auto;
+    grid-template-areas: 
+    'fom'
+    'da'
+    ;
+}
+
+
+.kok {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.art1{
+    grid-area: a1;
+    border: solid black 1px;
+    width: 20vw;
+    height: 40vh;
+}
+
+.art2{
+    grid-area: a2;
+    border: solid black 1px;
+    width: 20vw;
+    height: 40vh;
+}
+
+.art3{
+    grid-area: a3;
+    border: solid black 1px;
+    width: 20vw;
+    height: 40vh;
+}
+
+.art4{
+    grid-area: a4;
+    border: solid black 1px;
+    width: 20vw;
+    height: 40vh;
+}
+
+.art5{
+    grid-area: a5;
+    border: solid black 1px;
+    width: 20vw;
+    height: 40vh;
+}
+
+.art6{
+    grid-area: a6;
+    border: solid black 1px;
+    width: 20vw;
+    height: 40vh;
+}
+
+
+.div-articles{
+    display: flex;
+    justify-content: space-around;
+    grid-area: da;
+    height: 70vh;
 }
