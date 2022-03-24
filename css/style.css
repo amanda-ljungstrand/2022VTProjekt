@@ -1,32 +1,36 @@
 .nav {
     width: 100vw;
-    height: 10vh;
+    height: 12vh;
     background-color:rgb(248, 208, 147);
     display: flex;
     align-items: center;
-    grid-area: nav;
 }
+
 .navLinks {
     display: flex;
     position: absolute;
-    height: 10vh;
+    height: 12vh;
     top: -100.9vh;
     background-color:rgb(248, 208, 147);
     align-items: center;
     justify-content: flex-end; 
-    width: 97.5vw;
+    width: 90vw;
     list-style-type: none;
     transition:all 0.6s ease;
+    padding-right: 50px;
 }
+
 nav ul li{
     padding-right: 20px;
 }
+
 .navLinks li {
     text-align: center;
 }
+
 .burger div{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 25px;
     height: 3px;
     background-color: rgb(236, 236, 195);
@@ -50,32 +54,45 @@ nav ul li{
     transform: translatey(100vh);
     transition:all 0.6s ease;
 }
+
 .logoML{
     border: solid black 1px;
     margin-left: 15px;
+    height: 80px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
 
 .titel-main{
-    border: solid black 1px;
     position: absolute;
-    left: 400px;
-    top: 250px
+    font-size: 3em;
+    background-color: white;
+    text-align: right;
+    left: 350px;
+    top: 220px
 }
 .foto-main{
     border: solid black 1px;
-    height: 50vh;
-    width: 20vw;
+    height: 600px;
+    width: 500px;
     grid-area: fom;
+    margin-left: 15vw;
 }
 .text-main{
     border: solid black 1px;
-    height: 30vh;
-    width: 25vw;
+    height: 35vh;
+    width: 20vw;
     position: absolute;
     left: 400px;
-    top: 500px;
+    top: 400px;
+    padding: 20px;
+    background-color: white;
+    text-align: right;
 }
 
 
@@ -84,8 +101,10 @@ nav ul li{
     grid-template-rows: 70% auto;
     grid-template-areas: 
     'fom'
-    'da'
-    ;
+    'da123'
+    'da456'
+    'da789';
+    height: 130vh;
 }
 
 
@@ -94,52 +113,109 @@ nav ul li{
     justify-content: center;
     align-items: center;
 }
+
+
 .art1{
-    grid-area: a1;
     border: solid black 1px;
-    width: 20vw;
-    height: 40vh;
+    width: 250px;
+    height: 300px;
 }
-
 .art2{
-    grid-area: a2;
     border: solid black 1px;
-    width: 20vw;
-    height: 40vh;
+    width: 250px;
+    height: 300px;
 }
-
 .art3{
-    grid-area: a3;
     border: solid black 1px;
-    width: 20vw;
-    height: 40vh;
+    width: 250px;
+    height: 300px;
 }
-
 .art4{
-    grid-area: a4;
     border: solid black 1px;
-    width: 20vw;
-    height: 40vh;
+    width: 250px;
+    height: 300px;
 }
-
 .art5{
-    grid-area: a5;
     border: solid black 1px;
-    width: 20vw;
-    height: 40vh;
+    width: 250px;
+    height: 300px;
 }
-
 .art6{
-    grid-area: a6;
     border: solid black 1px;
-    width: 20vw;
-    height: 40vh;
+    width: 250px;
+    height: 300px;
+}
+.art7{
+    border: solid black 1px;
+    width: 250px;
+    height: 300px;
+}
+.art8{
+    border: solid black 1px;
+    width: 250px;
+    height: 300px;
+}
+.art9{
+    border: solid black 1px;
+    width: 250px;
+    height: 300px;
 }
 
 
-.div-articles{
+#div-articles{
     display: flex;
-    justify-content: space-around;
-    grid-area: da;
-    height: 70vh;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+.div-articles1{
+    grid-area: da123;
+}
+.div-articles2{
+    grid-area: da456;
+}
+.div-articles3{
+    grid-area: da789;
+}
+
+
+
+.kontakt{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    font-size: 2.5em;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: info;
+    border: solid black 1px;
+    height: 50vh;
+    width: 30vw;
+    text-align: center;
+}
+.fotok{
+    grid-area: fk;
+    border: solid black 1px;
+    height: 45vh;
+    width: 30vw;
+}
+.pob{
+    justify-content: center;
+    grid-area: pob;
+    border: solid black 1px;
+    height: 30vh;
+    width: 30vw;
+}
+#wrapper2{
+    display: grid;
+    grid-template-rows: 1 1;
+    grid-template-areas: 
+    'info fk'
+    'info pob';
 }
