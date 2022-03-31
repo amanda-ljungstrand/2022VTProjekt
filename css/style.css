@@ -219,3 +219,74 @@ nav ul li{
     'info fk'
     'info pob';
 }
+
+
+
+
+.gal-1{
+    grid-area: g1;
+    border: solid black 1px;
+    height: 70vh;
+    width: 20vw;
+    margin: 10px;
+}
+.gal-2{
+    grid-area: g2;
+    border: solid black 1px;
+    height: 20vh;
+    width: 50vw;
+    margin: 10px;
+}
+.gal-3{
+    grid-area: g3;
+    border: solid black 1px;
+    height: 50vh;
+    width: 20vw;
+    margin: 10px;
+}
+.gal-4{
+    grid-area: g4;
+    border: solid black 1px;
+    height: 20vh;
+    width: 20vw;
+    margin: 10px;
+}
+.gal-5{
+    grid-area: g5;
+    border: solid black 1px;
+    height: 20vh;
+    width: 20vw;
+    margin: 10px;
+}
+.gal-6{
+    grid-area: g6;
+    border: solid black 1px;
+    height: 20vh;
+    width: 20vw;
+    margin: 10px;
+}
+.gal-7{
+    grid-area: g7;
+    border: solid black 1px;
+    height: 20vh;
+    width: 20vw;
+    margin: 10px;
+}
+.gal-8{
+    grid-area: g8;
+    border: solid black 1px;
+    height: 20vh;
+    width: 50vw;
+    margin: 10px;
+}
+
+#wrapper3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+    'g1 g2 g2 g3'
+    'g1 g4 g5 g3'
+    'g6 g7 g8 g8';
+}
