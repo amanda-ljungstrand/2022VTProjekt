@@ -64,6 +64,11 @@ nav ul li{
     align-items: center;
     justify-content: center;
     text-align: center;
+    
+}
+.logoML a{
+    text-decoration: none;
+    color: black;
 }
 
 
