@@ -228,65 +228,65 @@ nav ul li{
 }
 
 
-.art1{
+#art1{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art2{
+#art2{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art3{
+#art3{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art4{
+#art4{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art5{
+#art5{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art6{
+#art6{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art7{
+#art7{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art8{
+#art8{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
-.art9{
+#art9{
     border: solid black 1px;
     width: 250px;
     height: 300px;
 }
 
 
-#div-articles{
+.div-articles{
     display: flex;
     justify-content: space-evenly;
     height: 50vh;
 }
-.div-articles1{
+#div-articles1{
     grid-area: da123;
 }
-.div-articles2{
+#div-articles2{
     grid-area: da456;
 }
-.div-articles3{
+#div-articles3{
     grid-area: da789;
 }
 }
@@ -321,6 +321,8 @@ nav ul li{
     border: solid black 1px;
     height: 45vh;
     width: 30vw;
+    background-image: url(../img/IMG_4264.jpg);
+    background-size: 100%;
 }
 .pob{
     justify-content: center;
